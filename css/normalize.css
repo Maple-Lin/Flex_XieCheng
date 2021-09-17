@@ -1,0 +1,51 @@
+body {
+  max-width: 540px;
+  min-width: 320px;
+  margin: 0 auto;
+  font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+  color: #000;
+  background: #f2f2f2;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?2btqir');
+  src:  url('../fonts/icomoon.eot?2btqir#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?2btqir') format('truetype'),
+    url('../fonts/icomoon.woff?2btqir') format('woff'),
+    url('../fonts/icomoon.svg?2btqir#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+a{
+  text-decoration: none;
+}
+
+div {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+}
+.clearfix {
+  clear: both;
+}
+.clearfix {
+  *zoom:1;
+}
+i {
+  text-decoration: none;
+}
